@@ -1,0 +1,23 @@
+doctype html
+html(lang="en", class="no-js")
+  head
+    title= "Leaflet PolyHeat"
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+    each asset in assets.css
+      link(href=asset, rel="stylesheet")
+    each asset in assets.scripts.head
+      script(type="text/javascript", src=asset)
+
+  body
+    h1 Example of Leaflet PolyHeat Plugin
+    .container
+      .row
+        div(class="large-8 large-offset-2 columns")
+          #map
+
+    each asset in assets.scripts.body
+      script(type="text/javascript", src=asset)
+    script(type="text/javascript").
+      $(document).foundation();

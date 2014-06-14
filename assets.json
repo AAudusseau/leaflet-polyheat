@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "head": [
+      "/lib/foundation/js/vendor/modernizr.js"
+    ],
+    "body": [
+      "/lib/foundation/js/vendor/jquery.js",
+      "/lib/foundation/js/foundation.js",
+      "/lib/leaflet/dist/leaflet.js",
+      "/lib/leaflet-providers/leaflet-providers.js",
+      "/scripts/main.js"
+    ]
+    },
+  "css": [
+    "/lib/foundation/css/normalize.css",
+    "/lib/foundation/css/foundation.css",
+    "/lib/leaflet/dist/leaflet.css",
+    "/styles/index.css"
+  ]
+}

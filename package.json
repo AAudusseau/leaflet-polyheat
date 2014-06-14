@@ -1,0 +1,20 @@
+{
+  "name": "leaflet-polyheat",
+  "version": "0.0.1",
+  "description": "Build leafletjs heatmap with polygons",
+  "author": 
+  {
+    "name" : "Antoine Audusseau"
+  },
+  "main": "index.js",
+  "repository" : 
+  {
+    "type" : "git",
+    "url" : "https://github.com/AAudusseau/leaflet-polyheat"
+  },
+  "dependencies": {
+    "express": "~4.0.0",
+    "jade": "~1.3.1",
+    "bower": "~1.3.5"
+  }
+}
