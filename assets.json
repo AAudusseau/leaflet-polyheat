@@ -8,6 +8,8 @@
       "/lib/foundation/js/foundation.js",
       "/lib/leaflet/dist/leaflet.js",
       "/lib/leaflet-providers/leaflet-providers.js",
+      "/lib/webgl-heatmap-leaflet/js/webgl-heatmap.js",
+      "/lib/webgl-heatmap-leaflet/js/webgl-heatmap-leaflet.js",
       "/scripts/main.js"
     ]
     },

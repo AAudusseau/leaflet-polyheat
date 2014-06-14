@@ -4,6 +4,7 @@
   "dependencies": {
     "foundation": "~5.2.3",
     "leaflet": "~0.7.3",
-    "leaflet-providers": "~1.0.5"
+    "leaflet-providers": "~1.0.5",
+    "webgl-heatmap-leaflet": "*"
   }
 }
